@@ -1,0 +1,14 @@
+<ion-view view-title="Picture">
+  <!-- do you want padding -->
+  <ion-content class="has-header padding">
+
+    <button class="button button-full button-balanced" ng-click="ctrl.takePicture()">Take a Picture</button>
+    <button class="button button-full button-balanced" ng-click="ctrl.getAllPictures()">Get all pictures</button>
+
+    <div>
+      <!--<img ng-src="{{ctrl.imgSrc}}" />-->
+    </div>
+
+    <pre>{{ ctrl | json}}</pre>
+  </ion-content>
+</ion-view>
